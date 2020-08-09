@@ -14,6 +14,11 @@
           <a href="facilities.html">Facilities</a>
           <a href="ramadhan.html">Ramadhan</a>
           <a class="active" href="quotes.html">Quotes & FAQ</a>
+          <a href="imasjid.html">Imasjid Registration</a>
+          <a href="donation.html">Donation</a>
+          <a href="inquiry.html">Inquiry</a>
+          <a href="events.html">Events</a>
+          <a href="announcement.html">Announcement</a>
       </div>
 
       <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
@@ -23,8 +28,12 @@
       <h3 style="color:white;">INTERNATIONAL ISLAMIC UNIVERSITY MALAYSIA (IIUM)<h3>
   </div>
 
-    <div class="first">
-      <span class="frequent">
+    <div class="first" >
+
+
+
+      <div class="frequent" id="Div1">
+
         <h3>Frequently asked questions</h3>
         <h4>Topic: Ibadah</h4>
         <ol>
@@ -36,22 +45,45 @@
         <ul>
           <li>eg:  " And I did not create the jinn and ins except for serving Me. (51:56)"</li>
         </ul>
-      </span>
-        <div class="ibadah">
-          <h2 style="color:white;">Ibadah Questions</h2>
-        </div>
-        <div class="fiqh">
-          <h2 style="color:white;">Fiqh Questions</h2>
-        </div>
-        <div class="aqidah">
-          <h2 style="color:white;">Aqidah Questions</h2>
-        </div>
+      </div>
+
+      <div class="frequent2" id="Div2">
+
+        <h3>Frequently asked questions</h3>
+        <h4>Topic: Fiqh</h4>
+        <ol>
+          <li><b>What is Fiqh?</b>
+          -the theory or philosophy of Islamic law, based on the teachings of the Koran and the traditions of the Prophet.</li>
+          <li><b>What is the importance of Fiqh?</b>- Fiqh expands and develops Shariah through interpretation (ijtihad) of the Quran and Sunnah</li>
+          <li><b>What is shariah?</b> -Islamic law, based on the Quran and on the sunnah of the Prophet</li>
+        </ol>
+
+      </div>
+
+      <div class="frequent3" id="Div3">
+
+        <h3>Frequently asked questions</h3>
+        <h4>Topic: Aqidah</h4>
+        <ol>
+          <li><b>What is Aqidah?</b>
+          - Islamic creed or articles of faith.</li>
+          <li><b>What is the importance of Aqidah?</b>-To strengthen the knowledge that is kept in the heart is the basis of one's belief and worship of one's Lord and is connected to Tawheed,  </li>
+          <li><b>How many articles of faith are there in Islam?</b> -There are six articles of faith.</li>
+        </ol>
+
+      </div>
+
+      <button type="button" name="button" class="button1" onclick="Display('Div1')" >Ibadah questions</button>
+      <br>
+      <button type="button" name="button" class="button2" onclick="Display('Div2')">Fiqh questions</button>
+      <br>
+      <button type="button" name="button" class="button3" onclick="Display('Div3')">Aqidah questions</button>
       </div>
 
 
 <div class="second">
 
-  <div class="slidershow middle" style="top:310px;">
+  <div class="slidershow middle">
 
       <div class="slides">
         <input type="radio" name="r" id="r1" checked>
@@ -94,4 +126,6 @@
          </ul>
        </span>
      </div>
+
+     <script src = "quotesjs.js"></script>
 </body>
